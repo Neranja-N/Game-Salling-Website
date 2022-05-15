@@ -1,0 +1,298 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.tittle{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+}
+
+.tblheder{
+	width: 100%;
+	height: 100px;
+}
+
+ a{
+	text-align:center;
+	text-decoration: none;
+	color: white;
+	text-shadow: 10 10 10px #ffffff;
+}
+
+body{
+	background-repeat: no-repeat, repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;	
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+h4.activity:hover{
+	color: #22F2AA;
+	text-shadow: 10 10 10px #22F2AA;
+	text-align: center;
+	opacity: 1;
+	font-size: 25px;
+}
+
+h4{
+	color:white;
+	font-family: serif;
+	text-shadow: 0 0 10px #ffffff;
+	opacity: 1;
+}
+
+h3.logins{
+	color: white;
+	text-shadow: 0 0 10px #ffffff;
+}
+
+/* ********** Slide Show ************/
+.mySlides {
+    display:none;
+  	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 30px;
+	}
+
+.logins{
+	text-align: right;
+	margin: 10px;
+	}
+
+/* ********** Games Cards ************/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255,255,255,0.7);
+  transition: 0.3s;
+  width: 400px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin: 15px;
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255,255,255,0.9);
+  width: 410px;
+}
+
+.container {
+  padding: 2px 10px;
+}
+
+/* ********** square /Popular games/ ************/
+.squr_1{
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-size:30px;
+	margin-top: 15px;
+	opacity: 0.9;
+  margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+/* ********** square /News Hed/ ************/
+.squr_2{
+  background-color: #ffffff;
+  width: 90%;
+  height: 80px;
+  text-align: center;
+  font-size:30px;
+  margin-top: 15px;
+  opacity: 0.9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+/* ********** news ************/
+
+.newsimg{
+	width: 400px;
+	max-height: 400px;
+  transition: 0.4s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.newsimg:hover{
+	width: 405px;
+	box-shadow: 0 0px 10px 0 rgba(255,255,255,0.8);
+}
+
+.newstitel{
+	color: #ffffff;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+.newsTable{
+	margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+    width: 90%;
+    height: 10%;
+    padding: 20px;
+}
+
+.TRcolor{
+  background-color:#4d4d4d;
+}
+
+.TRcolor :hover{
+  background-color:#595959;
+}
+
+.trcolor:hover{
+  background-color:#262626;
+}
+/* ********** footer ************/
+.footer {
+   height: 150px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+   margin-top: 20px;
+}
+
+/* ********** Social media icons ************/
+.socilIcons{
+	text-align: right;
+	margin-right: 200px;
+	padding-bottom: 10px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    width: 51px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #ffffff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* ********** Heder Buttens ************/
+
+.header {
+  overflow: hidden;
+  background-color: #555;
+  padding: 15px 15px;
+  max-height: 200px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius:4px;
+  transition: 0.4s;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.header a.logo:hover {
+    background-color: transparent;
+
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #ff3377;
+  color: white;
+  opacity: 0.9;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+/* ********** Smooth scrall for news ************/
+#section1 {
+  height: 600px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

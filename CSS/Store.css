@@ -1,0 +1,342 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	background-repeat: no-repeat, repeat;
+	background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+.tittle{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+}
+
+.tblheder{
+	width: 100%;
+	height: 100px;
+}
+
+ a{
+	text-align:center;
+	text-decoration: none;
+	color: white;
+	text-shadow: 10 10 10px #ffffff;
+}
+
+body{
+	background-repeat: no-repeat, repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  width: 100px;
+  text-align: center;
+  font-size: 20px;	
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+h4.activity:hover{
+	color: #22F2AA;
+	text-shadow: 10 10 10px #22F2AA;
+	text-align: center;
+	opacity: 1;
+	font-size: 25px;
+}
+
+h4{
+	color:white;
+	font-family: serif;
+	text-shadow: 0 0 10px #ffffff;
+	opacity: 1;
+}
+
+/* ********** Fixed Heder *********/
+.redline{
+	width: 92%;
+	height: 2px;
+	background-color: red;
+	padding-left: 170px;
+}
+
+.pageHeder{
+	padding-top: 50px;
+}
+
+.pagehedtext{
+	color: white;
+	padding-left: 150px;
+}
+
+/* ********** IMAGE grid *********/
+.row {
+	  display: -ms-flexbox; /* IE10 */
+	  display: flex;
+	  -ms-flex-wrap: wrap; /* IE10 */
+	  flex-wrap: wrap;
+	  padding: 0 4px;
+	  width: 90%;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 20px 2px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  transition: 1s;
+}
+
+.column img:hover {
+		box-shadow: 0 4px 4px 0 rgba(255,255,255,0.7);
+		margin-top:2px;
+		margin-bottom: 2px;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  /* ********** Salle item *********/
+
+.card {
+  box-shadow: 4px 4px 4px 0 rgba(255, 255, 255, 1);
+  max-width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  background-color: white;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 85%;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  border-radius: 30px;
+  background-color: red;
+  width: 95%;
+  letter-spacing: 2px;
+  font-size: 19px;
+}
+
+.itemimg{
+	width: 300px;
+	transition: 2s;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 20px 0 rgba(255, 255, 255, 0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.itemdetails h2{
+	text-align: center;
+	font-weight:559;
+}
+
+.itemdetails p{
+	margin-bottom: 5px;
+	padding-top: 7px;
+	font-size: 20px;
+	text-align: center; 
+}
+
+  /* ********** Games Logoes *********/
+
+  .gamesLogo{
+  	background-color: #ffffff;
+  	width: 95%;
+  	max-height: 200px;
+  	text-align: center;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	opacity: 0.9;
+  	margin-bottom: 10px;
+  	border-radius: 5px;
+  }
+/* ********** Heder Buttens ************/
+
+.header {
+  overflow: hidden;
+  background-color: #555;
+  padding: 20px 10px;
+  max-height: 150px;
+  margin-top: 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius:4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a.logo:hover {
+    background-color: transparent;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #ff3377;
+  color: white;
+  opacity: 0.9;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+/* ********** footer ************/
+.footer {
+   height: 150px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+   margin-top: 20px;
+}
+
+/* ********** Social media icons ************/
+.socilIcons{
+	text-align: right;
+	margin-right: 200px;
+	padding-bottom: 10px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    width: 51px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #ffffff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/************ user name and gog out add ****************/
+h3.logins{
+  color: white;
+  text-shadow: 0 0 10px #ffffff;
+  text-align: right;
+  margin-right: 20px;
+}
